@@ -1,0 +1,13 @@
+
+
+This archive contains the distribution AnyEvent-Beanstalk, version
+1.100750:
+
+  Async client to talk to beanstalkd server
+
+This software is Copyright (c) 2010 by Graham Barr.
+
+This is free software, licensed under:
+
+  The MIT (X11) License
+

@@ -1,0 +1,38 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 114738f65b9cfaf591e79fde66ef61271d3c901f Changes
+SHA1 2ed224429cbbdcce3d45ee10253248f60d6d599e LICENSE
+SHA1 933eadfc4850c31a2e1787c5341481bd96f9d6ea MANIFEST
+SHA1 e562aa68fce866a3bf84b51aa28d040e04fa101c META.json
+SHA1 b2d27cb4c27daacfaf5e1a0aae6bc5ba0d7d2841 META.yml
+SHA1 b8f4ebbcb97ccd27324495f752401e5c5f6e69f5 Makefile.PL
+SHA1 19ee2933dde1de8b9da6ba19ebe6e484fb15c662 README
+SHA1 33a2c7d44420c6178bf0724e3bb3a466828d28d4 lib/AnyEvent/Beanstalk.pm
+SHA1 de77ac25df56f2aff2d1b646b9990b7ed6afade6 lib/AnyEvent/Beanstalk/Job.pm
+SHA1 97c1799534406706a531a5179abb4aae77b8b2dd lib/AnyEvent/Beanstalk/Stats.pm
+SHA1 a9af7e8eecc2d35d3125c3dab837497e97963b8e t/00-basic.t
+SHA1 e7250569936d13578c638cfd195f2f94729476c2 t/01-simple.t
+SHA1 5da741e4cabd859cbd6a3f2ad1c9901b892da4d0 t/release-pod-coverage.t
+SHA1 946206d2ce9fba0e8fda1d429e01245fb8934622 t/release-pod-syntax.t
+SHA1 02e9351a74bdc2aa2e801abdeb7df33b61eafee2 t/start_server.pl
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkuf3KQACgkQR0BL4gbYw3QgXwCgj2tiDdv6EYpBdAKMHWOCvuJU
+J8kAnRitq4nWkMC5ibQsFtieWXw69zG0
+=9G3c
+-----END PGP SIGNATURE-----

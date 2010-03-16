@@ -1,0 +1,24 @@
+{
+   "resources" : {
+      "homepage" : "http://search.cpan.org/dist/AnyEvent-Beanstalk/",
+      "repository" : "http://github.com/gbarr/AnyEvent-Beanstalk"
+   },
+   "generated_by" : "Dist::Zilla version 1.100521",
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "version" : "1.100750",
+   "name" : "AnyEvent-Beanstalk",
+   "author" : [
+      "Graham Barr"
+   ],
+   "license" : "mit",
+   "requires" : {
+      "AnyEvent" : "0",
+      "ExtUtils::MakeMaker" : "6.11",
+      "Class::Accessor::Fast" : "0"
+   },
+   "abstract" : "Async client to talk to beanstalkd server"
+}
+
