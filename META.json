@@ -8,14 +8,15 @@
       "version" : 1.4,
       "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
    },
-   "version" : "1.100750",
+   "version" : "1.100790",
    "name" : "AnyEvent-Beanstalk",
    "author" : [
       "Graham Barr"
    ],
-   "license" : "mit",
+   "license" : "perl",
    "requires" : {
       "AnyEvent" : "0",
+      "YAML" : "0",
       "ExtUtils::MakeMaker" : "6.11",
       "Class::Accessor::Fast" : "0"
    },

@@ -1,5 +1,5 @@
 package AnyEvent::Beanstalk;
-our $VERSION = '1.100750';
+our $VERSION = '1.100790';
 
 use strict;
 use warnings;
@@ -585,7 +585,7 @@ AnyEvent::Beanstalk - Async client to talk to beanstalkd server
 
 =head1 VERSION
 
-version 1.100750
+version 1.100790
 
 =head1 SYNOPSIS
 

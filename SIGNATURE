@@ -14,16 +14,16 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 114738f65b9cfaf591e79fde66ef61271d3c901f Changes
-SHA1 2ed224429cbbdcce3d45ee10253248f60d6d599e LICENSE
+SHA1 b2c5239f15d646aba8f3d5779cef8f226236ee2a Changes
+SHA1 24680eb2a8fe871c0f35e23caa5b528f4101a21b LICENSE
 SHA1 933eadfc4850c31a2e1787c5341481bd96f9d6ea MANIFEST
-SHA1 e562aa68fce866a3bf84b51aa28d040e04fa101c META.json
-SHA1 b2d27cb4c27daacfaf5e1a0aae6bc5ba0d7d2841 META.yml
-SHA1 b8f4ebbcb97ccd27324495f752401e5c5f6e69f5 Makefile.PL
-SHA1 19ee2933dde1de8b9da6ba19ebe6e484fb15c662 README
-SHA1 33a2c7d44420c6178bf0724e3bb3a466828d28d4 lib/AnyEvent/Beanstalk.pm
-SHA1 de77ac25df56f2aff2d1b646b9990b7ed6afade6 lib/AnyEvent/Beanstalk/Job.pm
-SHA1 97c1799534406706a531a5179abb4aae77b8b2dd lib/AnyEvent/Beanstalk/Stats.pm
+SHA1 0c95b6194fbf09e106e32df313eaaca901430e14 META.json
+SHA1 37b336a88d4d0a9e794e73cb1473c12f5fb43869 META.yml
+SHA1 da895ba1b8b33947fb8bd605513cf2cc6a29a226 Makefile.PL
+SHA1 fcbace0242ef49b9c3a4e3492de09e7b7948fcf4 README
+SHA1 80771790a4ab2a4ce774379a29f41670b261615c lib/AnyEvent/Beanstalk.pm
+SHA1 098e36e4e495a97b38310be74fe8d228a9cad554 lib/AnyEvent/Beanstalk/Job.pm
+SHA1 bb1f2524acf319ae4e6df2e5ed862e9429b03686 lib/AnyEvent/Beanstalk/Stats.pm
 SHA1 a9af7e8eecc2d35d3125c3dab837497e97963b8e t/00-basic.t
 SHA1 e7250569936d13578c638cfd195f2f94729476c2 t/01-simple.t
 SHA1 5da741e4cabd859cbd6a3f2ad1c9901b892da4d0 t/release-pod-coverage.t
@@ -32,7 +32,7 @@ SHA1 02e9351a74bdc2aa2e801abdeb7df33b61eafee2 t/start_server.pl
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (Darwin)
 
-iEYEARECAAYFAkuf3KQACgkQR0BL4gbYw3QgXwCgj2tiDdv6EYpBdAKMHWOCvuJU
-J8kAnRitq4nWkMC5ibQsFtieWXw69zG0
-=9G3c
+iEYEARECAAYFAkuk3QwACgkQR0BL4gbYw3QssQCeMZ5pO0+eSscGpiuaXvim3Q4R
+cgUAoIK6ayfBg8K6SLrXrDaoEcnIht0u
+=/McZ
 -----END PGP SIGNATURE-----
