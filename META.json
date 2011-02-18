@@ -1,25 +1,41 @@
 {
-   "resources" : {
-      "homepage" : "http://search.cpan.org/dist/AnyEvent-Beanstalk/",
-      "repository" : "http://github.com/gbarr/AnyEvent-Beanstalk"
-   },
-   "generated_by" : "Dist::Zilla version 1.100521",
-   "meta-spec" : {
-      "version" : 1.4,
-      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
-   },
-   "version" : "1.100790",
-   "name" : "AnyEvent-Beanstalk",
+   "abstract" : "Async client to talk to beanstalkd server",
    "author" : [
       "Graham Barr"
    ],
-   "license" : "perl",
-   "requires" : {
-      "AnyEvent" : "0",
-      "YAML" : "0",
-      "ExtUtils::MakeMaker" : "6.11",
-      "Class::Accessor::Fast" : "0"
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200003, CPAN::Meta::Converter version 2.101670",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
    },
-   "abstract" : "Async client to talk to beanstalkd server"
+   "name" : "AnyEvent-Beanstalk",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "AnyEvent" : 0,
+            "Class::Accessor::Fast" : 0,
+            "YAML" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://search.cpan.org/dist/AnyEvent-Beanstalk/",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/gbarr/AnyEvent-Beanstalk.git",
+         "web" : "http://github.com/gbarr/AnyEvent-Beanstalk"
+      }
+   },
+   "version" : "1.110490"
 }
 

@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.55.
+signed via the Module::Signature module, version 0.64.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,25 +14,25 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 b2c5239f15d646aba8f3d5779cef8f226236ee2a Changes
-SHA1 24680eb2a8fe871c0f35e23caa5b528f4101a21b LICENSE
-SHA1 933eadfc4850c31a2e1787c5341481bd96f9d6ea MANIFEST
-SHA1 0c95b6194fbf09e106e32df313eaaca901430e14 META.json
-SHA1 37b336a88d4d0a9e794e73cb1473c12f5fb43869 META.yml
-SHA1 da895ba1b8b33947fb8bd605513cf2cc6a29a226 Makefile.PL
-SHA1 fcbace0242ef49b9c3a4e3492de09e7b7948fcf4 README
-SHA1 80771790a4ab2a4ce774379a29f41670b261615c lib/AnyEvent/Beanstalk.pm
-SHA1 098e36e4e495a97b38310be74fe8d228a9cad554 lib/AnyEvent/Beanstalk/Job.pm
-SHA1 bb1f2524acf319ae4e6df2e5ed862e9429b03686 lib/AnyEvent/Beanstalk/Stats.pm
+SHA1 f27ade65a0933a5c0be96d37882cc9adcaaafcfc Changes
+SHA1 4445d822ce0c4e7036aec1206a1c1be27d7875cf LICENSE
+SHA1 098b4f90bed2bb203bff448fa5af5c25e1bb46fa MANIFEST
+SHA1 ae49f8b040e12b9c48a8a8ed1a8ac2aed63e94c0 META.json
+SHA1 d19ec104a974e0d53c6b9d2bc36bb26aa1555d35 META.yml
+SHA1 4049fe364615001b7716cf532d838a412c092b01 Makefile.PL
+SHA1 b3bf1a3bc62ab3ded0d4092b992a62e6562f778e README
+SHA1 76c9fcfcdd7874b1edd31744cd9e66e64c71631a lib/AnyEvent/Beanstalk.pm
+SHA1 15ba710fcc49c56c5b25217201fee41a2b46959f lib/AnyEvent/Beanstalk/Job.pm
+SHA1 5096cbb0ab7cd3a0b4b8c4178bbfc0b802522174 lib/AnyEvent/Beanstalk/Stats.pm
 SHA1 a9af7e8eecc2d35d3125c3dab837497e97963b8e t/00-basic.t
 SHA1 e7250569936d13578c638cfd195f2f94729476c2 t/01-simple.t
-SHA1 5da741e4cabd859cbd6a3f2ad1c9901b892da4d0 t/release-pod-coverage.t
-SHA1 946206d2ce9fba0e8fda1d429e01245fb8934622 t/release-pod-syntax.t
+SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
 SHA1 02e9351a74bdc2aa2e801abdeb7df33b61eafee2 t/start_server.pl
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (Darwin)
+Version: GnuPG v1.4.11 (Darwin)
 
-iEYEARECAAYFAkuk3QwACgkQR0BL4gbYw3QssQCeMZ5pO0+eSscGpiuaXvim3Q4R
-cgUAoIK6ayfBg8K6SLrXrDaoEcnIht0u
-=/McZ
+iEUEARECAAYFAk1ezZUACgkQR0BL4gbYw3R4tQCfWFQWstgQmtt6BL3rFpItTOqq
+0MEAmMRchlqRs6CgEdswhptY6eh8pNI=
+=bEjs
 -----END PGP SIGNATURE-----

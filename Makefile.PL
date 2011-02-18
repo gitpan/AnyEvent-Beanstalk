@@ -4,32 +4,48 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.11;
+use ExtUtils::MakeMaker 6.31;
 
 
 
 my %WriteMakefileArgs = (
-                       'test' => {
-                                   'TESTS' => 't/*.t'
-                                 },
-                       'NAME' => 'AnyEvent::Beanstalk',
-                       'DISTNAME' => 'AnyEvent-Beanstalk',
-                       'AUTHOR' => 'Graham Barr',
-                       'ABSTRACT' => 'Async client to talk to beanstalkd server',
-                       'EXE_FILES' => [],
-                       'VERSION' => '1.100790',
-                       'LICENSE' => 'perl',
-                       'PREREQ_PM' => {
-                                        'YAML' => '0',
-                                        'AnyEvent' => '0',
-                                        'ExtUtils::MakeMaker' => '6.11',
-                                        'Class::Accessor::Fast' => '0'
-                                      }
-                     );
+  'ABSTRACT' => 'Async client to talk to beanstalkd server',
+  'AUTHOR' => 'Graham Barr',
+  'BUILD_REQUIRES' => {},
+  'CONFIGURE_REQUIRES' => {
+    'ExtUtils::MakeMaker' => '6.31'
+  },
+  'DISTNAME' => 'AnyEvent-Beanstalk',
+  'EXE_FILES' => [],
+  'LICENSE' => 'perl',
+  'NAME' => 'AnyEvent::Beanstalk',
+  'PREREQ_PM' => {
+    'AnyEvent' => '0',
+    'Class::Accessor::Fast' => '0',
+    'YAML' => '0'
+  },
+  'VERSION' => '1.110490',
+  'test' => {
+    'TESTS' => 't/*.t'
+  }
+);
 
 
-delete $WriteMakefileArgs{LICENSE}
-  unless eval { ExtUtils::MakeMaker->VERSION(6.31) };
+unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {
+  my $br = delete $WriteMakefileArgs{BUILD_REQUIRES};
+  my $pp = $WriteMakefileArgs{PREREQ_PM};
+  for my $mod ( keys %$br ) {
+    if ( exists $pp->{$mod} ) {
+      $pp->{$mod} = $br->{$mod} if $br->{$mod} > $pp->{$mod};
+    }
+    else {
+      $pp->{$mod} = $br->{$mod};
+    }
+  }
+}
+
+delete $WriteMakefileArgs{CONFIGURE_REQUIRES}
+  unless eval { ExtUtils::MakeMaker->VERSION(6.52) };
 
 WriteMakefile(%WriteMakefileArgs);
 

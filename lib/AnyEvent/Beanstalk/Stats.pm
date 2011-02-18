@@ -1,5 +1,7 @@
 package AnyEvent::Beanstalk::Stats;
-our $VERSION = '1.100790';
+BEGIN {
+  $AnyEvent::Beanstalk::Stats::VERSION = '1.110490';
+}
 
 use strict;
 use warnings;
@@ -47,7 +49,7 @@ AnyEvent::Beanstalk::Stats - Class to represent stats results from the beanstalk
 
 =head1 VERSION
 
-version 1.100790
+version 1.110490
 
 =head1 SYNOPSIS
 

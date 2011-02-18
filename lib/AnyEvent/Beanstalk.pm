@@ -1,5 +1,7 @@
 package AnyEvent::Beanstalk;
-our $VERSION = '1.100790';
+BEGIN {
+  $AnyEvent::Beanstalk::VERSION = '1.110490';
+}
 
 use strict;
 use warnings;
@@ -187,7 +189,7 @@ sub connect {
       $hd->push_read(
         line => sub {
           my ($hd, $result) = @_;
-          warn "got line <$result> for command [$send]" if DEBUG;
+          warn "got line <$result> for command [$send]\n" if DEBUG;
           my @resp = split(/\s+/, $result);
           my $resp = uc shift @resp;
 
@@ -232,7 +234,7 @@ sub connect {
               chunk => $bytes + 2,
               sub {
                 my ($hd, $chunk) = @_;
-                warn "got '$chunk'" if DEBUG;
+                warn "got '$chunk'\n" if DEBUG;
                 my $yaml = $YAML_LOAD->($chunk);
                 delete $self->{_condvar}{$cv};
                 $yaml = AnyEvent::Beanstalk::Stats->new($yaml) if $command =~ /^stats/;
@@ -307,10 +309,10 @@ sub watch_only {
     delete $self->{_condvar}{$cv};
     $cv->send(@_);
   };
-  $self->list_tubes(
+  $self->list_tubes_watched(
     sub {
-      my ($r, $tubes) = @_;
-      return $done->(@_) unless $r eq 'OK';
+      my ($tubes,$r) = @_;
+      return $done->(@_) unless $r and $r =~ /^OK\b/;
       foreach my $t (@$tubes) {
         $tubes{$t} = 0 unless delete $tubes{$t};
       }
@@ -585,7 +587,7 @@ AnyEvent::Beanstalk - Async client to talk to beanstalkd server
 
 =head1 VERSION
 
-version 1.100790
+version 1.110490
 
 =head1 SYNOPSIS
 
