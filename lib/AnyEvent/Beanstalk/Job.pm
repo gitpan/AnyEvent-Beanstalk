@@ -1,6 +1,6 @@
 package AnyEvent::Beanstalk::Job;
-BEGIN {
-  $AnyEvent::Beanstalk::Job::VERSION = '1.110490';
+{
+  $AnyEvent::Beanstalk::Job::VERSION = '1.121460';
 }
 
 use strict;
@@ -121,7 +121,7 @@ AnyEvent::Beanstalk::Job - Class to represent a job from a beanstalkd server
 
 =head1 VERSION
 
-version 1.110490
+version 1.121460
 
 =head1 SYNOPSIS
 

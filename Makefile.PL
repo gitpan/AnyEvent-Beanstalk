@@ -4,29 +4,29 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Async client to talk to beanstalkd server',
-  'AUTHOR' => 'Graham Barr',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+  "ABSTRACT" => "Async client to talk to beanstalkd server",
+  "AUTHOR" => "Graham Barr",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'AnyEvent-Beanstalk',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'AnyEvent::Beanstalk',
-  'PREREQ_PM' => {
-    'AnyEvent' => '0',
-    'Class::Accessor::Fast' => '0',
-    'YAML' => '0'
+  "DISTNAME" => "AnyEvent-Beanstalk",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "AnyEvent::Beanstalk",
+  "PREREQ_PM" => {
+    "AnyEvent" => 0,
+    "Class::Accessor::Fast" => 0,
+    "YAML" => 0
   },
-  'VERSION' => '1.110490',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "1.121460",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

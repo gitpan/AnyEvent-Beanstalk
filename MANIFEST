@@ -11,6 +11,9 @@ lib/AnyEvent/Beanstalk/Job.pm
 lib/AnyEvent/Beanstalk/Stats.pm
 t/00-basic.t
 t/01-simple.t
+t/02-ignore.t
+t/02-use.t
+t/02-watch.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/start_server.pl
