@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution AnyEvent-Beanstalk,
-version 1.121460:
+version 1.123530:
 
   Async client to talk to beanstalkd server
 

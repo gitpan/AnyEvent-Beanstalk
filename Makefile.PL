@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
     "Class::Accessor::Fast" => 0,
     "YAML" => 0
   },
-  "VERSION" => "1.121460",
+  "VERSION" => "1.123530",
   "test" => {
     "TESTS" => "t/*.t"
   }
