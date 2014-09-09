@@ -1,6 +1,6 @@
 package AnyEvent::Beanstalk::Job;
 {
-  $AnyEvent::Beanstalk::Job::VERSION = '1.123530';
+  $AnyEvent::Beanstalk::Job::VERSION = '1.142520';
 }
 
 use strict;
@@ -17,7 +17,7 @@ sub new {
 
 sub stats {
   my $self = shift;
-  my ($stats, $err) = $self->client->stats($self->id)->recv;
+  my ($stats, $err) = $self->client->stats_job($self->id)->recv;
   return $self->{_stats} = $stats if $stats;
   $self->error($err || 'unknown');
   return undef;
@@ -77,7 +77,10 @@ sub bury {
   return undef;
 }
 
-sub decode {
+# DEPRECATED! The proper method name is "args".
+sub decode { goto \&args; }
+
+sub args {
   my $self = shift;
   my $data = $self->data;
   return unless defined($data);
@@ -121,7 +124,7 @@ AnyEvent::Beanstalk::Job - Class to represent a job from a beanstalkd server
 
 =head1 VERSION
 
-version 1.123530
+version 1.142520
 
 =head1 SYNOPSIS
 

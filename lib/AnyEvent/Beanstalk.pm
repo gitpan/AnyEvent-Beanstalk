@@ -1,6 +1,6 @@
 package AnyEvent::Beanstalk;
 {
-  $AnyEvent::Beanstalk::VERSION = '1.123530';
+  $AnyEvent::Beanstalk::VERSION = '1.142520';
 }
 
 use strict;
@@ -596,7 +596,7 @@ AnyEvent::Beanstalk - Async client to talk to beanstalkd server
 
 =head1 VERSION
 
-version 1.123530
+version 1.142520
 
 =head1 SYNOPSIS
 

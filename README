@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution AnyEvent-Beanstalk,
-version 1.123530:
+version 1.142520:
 
   Async client to talk to beanstalkd server
 
-This software is copyright (c) 2012 by Graham Barr.
+This software is copyright (c) 2014 by Graham Barr.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

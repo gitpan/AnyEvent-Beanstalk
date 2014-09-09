@@ -11,7 +11,11 @@ use ExtUtils::MakeMaker 6.30;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Async client to talk to beanstalkd server",
   "AUTHOR" => "Graham Barr",
-  "BUILD_REQUIRES" => {},
+  "BUILD_REQUIRES" => {
+    "Test::Deep" => 0,
+    "Test::More" => 0,
+    "Test::Warnings" => 0
+  },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -24,7 +28,7 @@ my %WriteMakefileArgs = (
     "Class::Accessor::Fast" => 0,
     "YAML" => 0
   },
-  "VERSION" => "1.123530",
+  "VERSION" => "1.142520",
   "test" => {
     "TESTS" => "t/*.t"
   }

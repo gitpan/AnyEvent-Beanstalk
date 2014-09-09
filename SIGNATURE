@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.64.
+signed via the Module::Signature module, version 0.70.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,28 +14,38 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 a316ff2fd41c76bafb1e77c810769ac91b98f23c Changes
-SHA1 0433bbff935245e9752d7633fe7caea3ef6c8187 LICENSE
-SHA1 20698f22b4599ed8f216f3825a858f43888b4148 MANIFEST
-SHA1 d5f4c5f6a7ba9a6fd7345b5e6c4faf807dfc9890 META.json
-SHA1 4570939eab27e23920cc0897c621e27bd28114ae META.yml
-SHA1 2da62e84c7311f05f999ac4742156f5a047e38d8 Makefile.PL
-SHA1 c5ae745258329263d0726a530acaa94e69c8dc56 README
-SHA1 ae9decd5e73a94157100f2412a909dd8f1228ad3 lib/AnyEvent/Beanstalk.pm
-SHA1 96d46a922cb809f23aaa2c5a3d6c656563ba3695 lib/AnyEvent/Beanstalk/Job.pm
-SHA1 d8636e5d7ec1de56fcb2f7d584fbed4e0661039e lib/AnyEvent/Beanstalk/Stats.pm
-SHA1 a9af7e8eecc2d35d3125c3dab837497e97963b8e t/00-basic.t
-SHA1 e7250569936d13578c638cfd195f2f94729476c2 t/01-simple.t
-SHA1 e1077386dd96b69cc6fbb92cbfc8248050c6f968 t/02-ignore.t
-SHA1 d67ba2efe1c258553f716fddfa916d4041ff01d2 t/02-use.t
-SHA1 743e94746ab3d368066dc8d6a7e98ae0a97cd767 t/02-watch.t
+SHA1 1908ab15f247a186f8ba428d21981008bd8b7ed8 Changes
+SHA1 2bf572da781c106f615754e11dd1523480f4a25b LICENSE
+SHA1 668b5fd8e0899cf64af6f3ca29dfcfa48fa75bd3 MANIFEST
+SHA1 a268cf276bdfce9631f2ae7d998e9e678708372a META.json
+SHA1 067dfaf5e8bdb2a150466869488c609e0d7d7cfc META.yml
+SHA1 58f72e6f2b6fb17c003d16b630c0054b806d2b1f Makefile.PL
+SHA1 c19cd7a246eb90706d15e3c2beb670aea5b8b13f README
+SHA1 987c16afd68d82dcad1063cb782933c99e829f29 lib/AnyEvent/Beanstalk.pm
+SHA1 fbe6715bb3683bc949f712635df076563656e5cc lib/AnyEvent/Beanstalk/Job.pm
+SHA1 418abe21b2dd3dab9549e37f85972a6c317b3ca8 lib/AnyEvent/Beanstalk/Stats.pm
+SHA1 84ea7174d72f7709ab7ca7d34f2ceca292cbdfae t/00-basic.t
+SHA1 88e109ff4c7604c317373a534896ca5defbd9bd0 t/01-simple.t
+SHA1 03bf016b2dbad899e36087f884a691cac0f4da90 t/02-ignore.t
+SHA1 de2b554a5e0be13c47abba110ea503450a1acd51 t/02-use.t
+SHA1 0ad862981d748c54fdda939d5755ab464f082314 t/02-watch.t
 SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
 SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
-SHA1 02e9351a74bdc2aa2e801abdeb7df33b61eafee2 t/start_server.pl
+SHA1 ca40f742b74bf80bc0c4f46babbf14bded2db39f t/start_server.pm
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.11 (Darwin)
+Version: GnuPG v1
 
-iEYEARECAAYFAlDQ6BkACgkQR0BL4gbYw3TPHgCfSPm54tDMQGU0iWCmksnrqkKm
-NjQAn05cE3MC/ZFK8DoULapdEZJRTVG+
-=3TdY
+iQIcBAEBAgAGBQJUD2wAAAoJEF0awSLzqjNNf3gP/1aebOsDNIZ/BKEKu5t/LcpX
+3LO/NcYTlqolY7oCxtArQOnpjcfKoPzfWlHNSzngWQRZAH9dLHVENsQ69vets8KB
+yKL9uNxHu7xZyzMI73n4f+W1JKPGUloKzeqLwX/yNWP5uU0YLV521J/NC0kTEUA3
+m88TMrKlXMtMYUibv/yq+/S8kcTyInUrDVZSRtUUfeh+qfbpMKSnnSQJnCAOSGeA
+TJoANkKa9qNadZ8mladCC0Gy6CYWRz6e7aSvuab8vbV7LQd3VxsTcCz2HHYVGq0D
+Kjq/riTlicIotUb3REz/qr5SwoQQtIGsIKtRmhoNp2fGVBj3TFnf5NmOaB7geIQe
+zFB8Y+vObP4va50BJiQ9Vw8tqAQO/VHNrs9PgxXOC/bDdAzHFhvh+7x/mUAfeBCf
+Fgy6/gu3AE2gXxzkjqVUqrcR6JDFS7GbP6DGTyNs9oNjBmtUp9pLgheKj+0wWn/v
+7eih3T+3yw+7qm2B9Yf4ieQTWXuO/B9seeCWqkF1hKuPfhcc1nnzAhutQ8t29PxA
+dt3LBnnCMFHAjek4J135JUmYXrU4Bql57xQM/XfHIsUh9ucbpu+FHfsfGy2Iq1p7
+7ZLKufxaWtQwnRbvmxHdKPu9A+JXXaeNanHfvZrrQcAglQG4LeZrscF9pA5YP1x+
+Sgrx3kIPppv4gEb6HZNg
+=UdiL
 -----END PGP SIGNATURE-----
